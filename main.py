@@ -99,10 +99,10 @@ try:
 
     # Diccionario de imágenes y mensajes asociados con URL
     diccionario_mensajes = {
-        "https://aaan.annothere.repl.co/collage/img/backyardigans.jpg": "Mensaje 1",
-        "https://aaan.annothere.repl.co/collage/img/bob.jpg": "Mensaje 2",
-        "https://aaan.annothere.repl.co/collage/img/pinguinos.jpg": "Mensaje 3",
-        "https://aaan.annothere.repl.co/collage/img/pocoyo.jpg": "Mensaje 4",
+        "url": "Mensaje 1",
+        "url": "Mensaje 2",
+        "url": "Mensaje 3",
+        "url": "Mensaje 4",
     }
 
     # Cargar y redimensionar imágenes desde URL
@@ -160,7 +160,7 @@ try:
             fila += 1
 
     # Actualiza la URL real de la imagen a imprimir
-    url_imagen_a_imprimir = "https://aaan.annothere.repl.co/collage/impresion.html"
+    url_imagen_a_imprimir = "url"
 
     root.mainloop()
 
